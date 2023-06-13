@@ -770,7 +770,8 @@ header {
     max-width: 30wh;
   }
   .header-text {
-    max-width: 55vw;
+    max-width: 25rem;
+    margin: auto 3rem;
   }
   .header-text h2 {
     display: flex;
@@ -887,8 +888,11 @@ header {
     font-size: 1.7rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
+  .header-items {
+    align-items: start;
+  }
   .header-text {
-    max-width: 25vw;
+    max-width: 25rem;
   }
 }/*# sourceMappingURL=style.css.map */
